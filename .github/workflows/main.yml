@@ -16,12 +16,12 @@ jobs:
       - name: Build static site
         run: |
           mkdir -p docs/
-          for name in *.link; do
+          for name in links/*; do
             if [ ! -f "$name" ]; then
               continue
             fi
             url="$(cat "$name")"
-            dir=docs/$name/
+            dir=docs/$(basename $name)/
             mkdir -p "$dir"
             cat <<HTML > "$dir/index.html"
           <!DOCTYPE html>
