@@ -16,7 +16,7 @@ jobs:
       - name: Build static site
         run: |
           mkdir -p docs/
-          for name in *; do
+          for name in *.link; do
             if [ ! -f "$name" ]; then
               continue
             fi
