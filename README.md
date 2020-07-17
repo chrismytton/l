@@ -4,7 +4,7 @@ Link shortener running on GitHub Actions and GitHub Pages.
 
 Uses shell script to generate a static site which redirects to an external URL.
 
-Each .link file in the root directory is treated as a link to an external site. For example [chrismytton.uk/l/self](https://www.chrismytton.uk/l/self) is a self-referential link back to this repo.
+Each file in the `links/` directory is treated as a link to an external site. For example [chrismytton.uk/l/self](https://www.chrismytton.uk/l/self) is a self-referential link back to this repo.
 
 ## Architecture
 
