@@ -1,6 +1,6 @@
 # l
 
-Link shortner running on GitHub Actions and GitHub Pages.
+Link shortener running on GitHub Actions and GitHub Pages.
 
 Uses shell script to generate a static site which redirects to an external URL.
 
